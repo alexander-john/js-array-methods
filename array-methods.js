@@ -10,3 +10,14 @@ console.log(evenNumbers); // Output: [2, 4]
 // Example: Summing all numbers in an array
 const sum = numbers.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
 console.log(sum); // Output: 15
+
+// Example: Logging each element of an array
+numbers.forEach(num => {
+    console.log(num);
+});
+// Output:
+// 1
+// 2
+// 3
+// 4
+// 5
