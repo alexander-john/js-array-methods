@@ -6,3 +6,7 @@ console.log(doubledNumbers); // Output: [2, 4, 6, 8, 10]
 // Example: Filtering even numbers from an array
 const evenNumbers = numbers.filter(num => num % 2 === 0);
 console.log(evenNumbers); // Output: [2, 4]
+
+// Example: Summing all numbers in an array
+const sum = numbers.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
+console.log(sum); // Output: 15
