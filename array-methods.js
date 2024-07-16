@@ -21,3 +21,7 @@ numbers.forEach(num => {
 // 3
 // 4
 // 5
+
+// Example: Sorting an array of numbers
+numbers.sort((a, b) => a - b); // Sort in ascending order
+console.log(numbers); // Output: [1, 1, 3, 4, 5, 9]
